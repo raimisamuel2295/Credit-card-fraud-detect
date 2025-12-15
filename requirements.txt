@@ -1,8 +1,35 @@
-fastapi==0.95.1
-uvicorn==0.22.0
-joblib==1.2.0
-numpy==1.23.3
-scikit-learn==1.1.2
-lightgbm==4.0.0
-pydantic==1.10.12
-requests==2.31.0
+# Web and API
+fastapi>=0.95.1
+uvicorn>=0.22.0
+streamlit>=1.22.0
+
+# Data processing
+numpy>=1.25.0
+pandas>=2.3.3
+scipy>=1.10.1
+scikit-learn>=1.8.0
+imbalanced-learn>=0.14.0
+
+# Visualization
+matplotlib>=3.7.2
+seaborn>=0.13.2
+altair>=6.0.0
+pydeck>=0.9.1
+
+# Utilities
+joblib>=1.5.3
+tqdm>=4.70.0
+requests>=2.32.5
+protobuf>=6.0.0
+pillow>=10.0.0
+rich>=14.2.0
+markdown-it-py>=4.0.0
+mdurl>=0.1.2
+pygments>=2.19.2
+
+# Optional ML explainability
+shap>=0.55.0
+
+# Git & cache tools
+gitpython>=3.1.31
+cachetools>=6.2.3
