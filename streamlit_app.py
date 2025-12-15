@@ -192,7 +192,7 @@ if st.button("Analyze Transaction"):
     
     with st.spinner("Processing transaction..."):
         try:
-            response = requests.post("http://127.0.0.1:8000/predict", json=transaction)
+            response = requests.post("https://detect-3-gbwh.onrender.com/predict", json=transaction)
             response.raise_for_status()
             result = response.json()
             
