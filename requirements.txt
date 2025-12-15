@@ -1,9 +1,8 @@
-streamlit
-numpy
-pandas
-scikit-learn
-imbalanced-learn
-joblib
-matplotlib
-seaborn
-shap
+fastapi==0.95.1
+uvicorn==0.22.0
+joblib==1.2.0
+numpy==1.23.3
+scikit-learn==1.1.2
+lightgbm==4.0.0
+pydantic==1.10.12
+requests==2.31.0
